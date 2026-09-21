@@ -1,0 +1,12 @@
+# Tested on CPython 3.10.21 / Linux x86_64. These preserve Hoshino's
+# NoneBot/Quart stack. Do not use pip install -U on Hoshino core dependencies.
+maimai-py==1.5.2
+maimai-ffi==0.7.1
+httpx==0.28.1
+httpcore==1.0.9
+aiocache==0.12.3
+tenacity==9.1.4
+cryptography==46.0.3
+zxing-cpp==2.2.0
+Pillow==9.1.1
+aiohttp==3.8.6

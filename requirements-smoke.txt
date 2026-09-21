@@ -1,0 +1,10 @@
+# Isolated smoke-test environment only. Never apply to an existing bot blindly.
+-r requirements-dev.txt
+pytz==2026.2
+requests==2.32.5
+zhconv==1.4.3
+numpy==1.22.4
+# The original Hoshino requirement is ~=3.2.1. Building 3.2.2 failed in
+# this sandbox (FreeType/native executable permissions). This later wheel is
+# ONLY for the disclosed smoke environment, not a plugin runtime requirement.
+matplotlib==3.5.3
