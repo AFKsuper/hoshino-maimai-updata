@@ -1,0 +1,12 @@
+-r requirements.txt
+pytest==8.3.5
+pytest-asyncio==0.24.0
+qrcode==7.4.2
+aiocqhttp==1.4.2
+nonebot[scheduler]==1.8.0
+Quart==0.14.1
+MarkupSafe==1.1.1
+Jinja2==2.11.3
+Werkzeug==1.0.1
+wsproto==0.15.0
+pygtrie==2.3.3
