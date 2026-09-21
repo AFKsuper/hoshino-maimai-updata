@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "dispatch": "real aiocqhttp CQHttp._handle_event + NoneBot 1 + target Hoshino.init",
+  "events": 25,
+  "mock_backend_submissions": 5,
+  "loaded_plugins": [
+    "hoshino.modules.botmanage.alert",
+    "hoshino.modules.botmanage.billing",
+    "hoshino.modules.botmanage.broadcast",
+    "hoshino.modules.botmanage.data_cleaner",
+    "hoshino.modules.botmanage.feedback",
+    "hoshino.modules.botmanage.get_cqcode",
+    "hoshino.modules.botmanage.group_invite",
+    "hoshino.modules.botmanage.group_leave",
+    "hoshino.modules.botmanage.help",
+    "hoshino.modules.botmanage.ls",
+    "hoshino.modules.botmanage.service_manage",
+    "hoshino.modules.maimai_updata.app",
+    "hoshino.modules.maimai_updata.config",
+    "hoshino.modules.maimai_updata.core",
+    "hoshino.modules.maimai_updata.database",
+    "hoshino.modules.maimai_updata.handlers"
+  ],
+  "real_image_decode": true,
+  "real_qq_connection": false,
+  "real_maimai_upload": false,
+  "versions": {
+    "nonebot": "1.8.0",
+    "aiocqhttp": "1.4.2",
+    "Quart": "0.14.1",
+    "matplotlib": "3.5.3",
+    "maimai-py": "1.5.2",
+    "aiohttp": "3.8.6",
+    "Pillow": "9.1.1",
+    "numpy": "1.22.4"
+  }
+}
